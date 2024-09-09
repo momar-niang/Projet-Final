@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: mediumorchid;
+}
+
+header {
+    background-color: #4244e9;
+    color: #fff;
+    padding: 1rem;
+ text-align: center;
+    display: flex;
+    justify-content: space-evenly; /* Ajouté pour centrer les éléments horizontalement dans l'en-tête */
+}
+
+.aria-placeholder {
+    display: flex; /* Ajusté pour que l'élément s'affiche en tant que flexbox */
+    
+}
+
+nav ul {
+    padding: 0;
+    margin: 0; /* Ajouté pour éviter un éventuel décalage des marges */
+}
+
+nav ul li {
+    display: inline-block; /* Changé de inline à inline-block pour pouvoir ajouter des marges correctement */
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: moccasin;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.products, .coaching {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #402ee2;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#form {
+    padding: 30px;
+    
+}
+
+.coaching {
+    background-color: #007BFF;
+}
+
+#Articles {
+    margin: 0; /* Ajouté pour éviter les marges inutiles */
+    padding: 0; /* Ajouté pour supprimer le padding par défaut */
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+
